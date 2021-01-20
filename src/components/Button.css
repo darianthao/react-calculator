@@ -8,10 +8,10 @@
     background-color: #000000;
     color: #888;
     flex: 1;
-    outline: 1px solid #888;
+    outline: 1px solid #888888;
 }
 
 .operator {
     background-color: #fe9241;
-    color: white;
+    color:#ffffff;
 }
