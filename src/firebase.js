@@ -1,9 +1,10 @@
-import firebase from 'firebase';
-
+import firebase from 'firebase'
+import 'firebase/firestore'
 
 var firebaseConfig = {
     apiKey: "AIzaSyAMxPP7rVc6-TZgOtNFAoppQFoqIhAMsAQ",
     authDomain: "react-calculator-f6e55.firebaseapp.com",
+    databaseURL: "https://react-calculator-f6e55-default-rtdb.firebaseio.com",
     projectId: "react-calculator-f6e55",
     storageBucket: "react-calculator-f6e55.appspot.com",
     messagingSenderId: "802299707973",
@@ -11,6 +12,4 @@ var firebaseConfig = {
     measurementId: "G-FHV68800NT"
   };
 
-  var fire = firebase.initializeApp(firebaseConfig);
-
-  export default fire;
+export default firebase;
